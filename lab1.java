@@ -6,10 +6,12 @@
 //3 1 2 
 //3 2 1
 
-public class Lab1 {
+public class lab1 {
    
+    public lab1 () {}
     public static void printArray(int[] a) 
     {
+        System.out.println("");
         for(int i=0; i<a.length; i++)
         System.out.print(a[i] + " ");
     }
